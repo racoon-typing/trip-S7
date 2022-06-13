@@ -12,54 +12,152 @@
         <main class="main-container">
             <section class="main-container__filter filter">
                 <h2 class="visually-hidden">Фильтры</h2>
-                <fieldset class="filter__wrapper">
-                    <ul class="filter__list">
-                        <li class="filter__item item">
-                            <label class="item__label">
-                                <input class="item__input" type="checkbox" name="" value="">
-                            </label>
-                        </li>
+                <form class="filter__form">
+                    <fieldset class="filter__wrapper">
+                        <ul class="filter__list">
+                            <li class="filter__item item">
+                                <label class="item__label">
+                                    <input class="item__input" type="checkbox" name="" value="">
+                                </label>
+                            </li>
+    
+                            <li class="filter__item item">
+                                <label class="item__label">
+                                    <input class="item__input" type="checkbox" name="" value="">
+                                </label>
+                            </li>
+    
+                            <li class="filter__item item">
+                                <label class="item__label">
+                                    <input class="item__input" type="checkbox" name="" value="">
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+    
+                    <fieldset class="filter__wrapper filter__wrapper--radio">
+                        <ul class="filter__list filter__list--radio">
+                            <li class="filter__item filter__item--radio item--radio">
+                                <label class="item__label item__label--radio">
+                                    <input class="item__input item__input--radio " type="radio" name="" value="">
+                                </label>
+                            </li>
+    
+                            <li class="filter__item filter__item--radio item--radio">
+                                <label class="item__label item__label--radio">
+                                    <input class="item__input item__input--radio " type="radio" name="" value="">
+                                </label>
+                            </li>
+    
+                            <li class="filter__item filter__item--radio item--radio">
+                                <label class="item__label item__label--radio">
+                                    <input class="item__input item__input--radio " type="radio" name="" value="">
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+    
+                    <div class="filter__wrapper--range">
+                        <input class="filter-range" type="range">
+                    </div>
 
-                        <li class="filter__item item">
-                            <label class="item__label">
-                                <input class="item__input" type="checkbox" name="" value="">
-                            </label>
-                        </li>
+                    <div class="filter__wrapper--button">
+                        <button type="button">Найти</button>
+                    </div>
 
-                        <li class="filter__item item">
-                            <label class="item__label">
-                                <input class="item__input" type="checkbox" name="" value="">
-                            </label>
-                        </li>
-                    </ul>
-                </fieldset>
+                </form>
+            </section>
 
-                <fieldset class="filter__wrapper filter__wrapper--radio">
-                    <ul class="filter__list filter__list--radio">
-                        <li class="filter__item filter__item--radio item--radio">
-                            <label class="item__label item__label--radio">
-                                <input class="item__input item__input--radio " type="radio" name="" value="">
-                            </label>
-                        </li>
+            <section class="main-container__trip trip">
+                <h2 class="visually-hidden">Рейсы</h2>
+                <ul class="trip__list">
+                    <li class="trip__item">
+                        <img class="trip__photo">
 
-                        <li class="filter__item filter__item--radio item--radio">
-                            <label class="item__label item__label--radio">
-                                <input class="item__input item__input--radio " type="radio" name="" value="">
-                            </label>
-                        </li>
+                        <dl class="trip__characteristic">
+                            <dt class="trip__standard"></dt>
+                            <dd class="trip__price"></dd>
+                        </dl>
 
-                        <li class="filter__item filter__item--radio item--radio">
-                            <label class="item__label item__label--radio">
-                                <input class="item__input item__input--radio " type="radio" name="" value="">
-                            </label>
-                        </li>
-                    </ul>
-                </fieldset>
+                        <p class="trip__info"></p>
+                    </li>
 
-                <div></div>
+                    <li class="trip__item">
+                        <img class="trip__photo">
 
+                        <dl class="trip__characteristic">
+                            <dt class="trip__standard"></dt>
+                            <dd class="trip__price"></dd>
+                        </dl>
+
+                        <p class="trip__info"></p>
+                    </li>
+
+                    <li class="trip__item">
+                        <img class="trip__photo">
+
+                        <dl class="trip__characteristic">
+                            <dt class="trip__standard"></dt>
+                            <dd class="trip__price"></dd>
+                        </dl>
+
+                        <p class="trip__info"></p>
+                    </li>
+
+                    <li class="trip__item">
+                        <img class="trip__photo">
+
+                        <dl class="trip__characteristic">
+                            <dt class="trip__standard"></dt>
+                            <dd class="trip__price"></dd>
+                        </dl>
+
+                        <p class="trip__info"></p>
+                    </li>
+
+                    <li class="trip__item">
+                        <img class="trip__photo">
+
+                        <dl class="trip__characteristic">
+                            <dt class="trip__standard"></dt>
+                            <dd class="trip__price"></dd>
+                        </dl>
+
+                        <p class="trip__info"></p>
+                    </li>
+
+                    <li class="trip__item">
+                        <img class="trip__photo">
+
+                        <dl class="trip__characteristic">
+                            <dt class="trip__standard"></dt>
+                            <dd class="trip__price"></dd>
+                        </dl>
+
+                        <p class="trip__info"></p>
+                    </li>
                 
+                </ul>
             </section>
         </main>
+
+        <footer class="main-foter">
+            <h2 class="visually-hidden">Контакты</h2>
+            
+            <p class="main-foter__description"></p>
+
+            <ul class="main-foter__list">
+                <li class="main-foter__item">
+                    <a class="main-foter__link main-foter__link--tel"></a>
+                </li>
+                <li class="main-foter__item">
+                    <a class="main-foter__link main-foter__link--vk"></a>
+                </li>
+                <li class="main-foter__item">
+                    <a class="main-foter__link main-foter__link--email"></a>
+                </li>
+            </ul>
+        </footer>
+
     </body>
 </html>
